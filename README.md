@@ -7,7 +7,7 @@
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_styleLeading_2/Intrucciones/header_final.png" width="300px" height="100%">
 
-### [Reto 3: Formuluario animado](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_styleLeading_3)
+### [Reto 3: Formulario animado](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_styleLeading_3)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_styleLeading_3/Intrucciones/resultado_final.png" width="300px" height="100%">
 
