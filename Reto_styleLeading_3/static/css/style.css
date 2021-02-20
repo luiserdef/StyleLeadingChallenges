@@ -1,0 +1,108 @@
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-logo-text-color: #ffffff;
+    --main-text-color: #ffffff;
+    --main-border-color: #c1c1c1;
+    --main-button-bg-color: #fbb657;
+    --primary-font-family: 'Oswald', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgcontainer{
+    
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    background-image:url("../images/bg.jpg");
+}
+
+.container{
+    /* border:1px solid red; */
+    position:absolute;
+    top:200px;
+    left:120px;
+}
+.section-logo{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:var(--main-text-color);
+    /* border:1px solid red; */
+    font-family: var(--primary-font-family);
+}
+.section_right{
+    border-left:2px solid var(--main-border-color);
+    color: var(--main-text-color);
+}
+.section_right_container{
+    padding-left: 30px;
+    font-family:var(--secondary-font-family);
+    font-size:20px;
+}
+
+.section_right_container_form{
+   color:var(--main-text-color);
+}
+
+.section_right_container_form input{
+    background-color: #3d080800;
+ }
+ .section_right_container_form input::placeholder{
+  color: var(--main-text-color);
+ }
+
+ .section_right_container_form button{
+    background-color:var(--main-button-bg-color);
+    color:var(--main-text-color);
+    width: 100%;
+}
+
+  .section_right_container_form i{
+    position:absolute;
+    top:110px;
+    right:20px;
+ }
+
+ .animate-content-delay1{
+    animation-name:delay1;
+    animation-timing-function: ease-in;
+    animation-duration:0.9s;
+ }
+
+  .animate-content-delay2{
+    animation-name:delay1;
+    animation-timing-function: ease-in;
+    animation-duration:0.8s;
+ }
+ .animate-content-delay3{
+    animation-name:delay1;
+    animation-timing-function: ease-in;
+    animation-duration:0.7s;
+ }
+
+ @keyframes delay1{
+     0%{transform :translate(0,15px);}
+     100%{transform :translate(0,15px);}
+ }
+
+ @keyframes delay2{
+    0%{transform :translate(0,15px);}
+    100%{transform :translate(0,15px);}
+}
+
+@keyframes delay3{
+    0%{transform :translate(0,15px);}
+    100%{transform :translate(0,15px);}
+}

@@ -1,0 +1,61 @@
+:root {
+    --main-bg-color: #1A4341;
+    --main-line-color: #F3AC3C;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+}
+
+.container-cup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 220px;
+}
+
+.cup {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-line-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lines {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.line-cup {
+    width: 100%;
+    height: 20px;
+    background-color: var(--main-bg-color);
+}
+
+.cup:before {
+    content: "";
+    position: absolute;
+    right: -25%;
+    background-color: var(--main-bg-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.cup:after {
+    content: "";
+    position: absolute;
+    left: -25%;
+    background-color: var(--main-bg-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

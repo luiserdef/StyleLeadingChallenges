@@ -1,0 +1,71 @@
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-background-color: #293462;
+    --secondary-background-color: #FE5F55;
+    --main-circle-color: #FFF1C1;
+    
+}
+body{
+    background-color:var(--main-background-color)
+}
+
+.head-container{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.head-main{
+    width:250px;
+    height:250px;
+    border-radius:50%  50% 50px 50px ;
+    background-color: var(--secondary-background-color);
+    overflow:hidden;
+}
+.left-hair{
+    width:150px;
+    position:relative;
+    height:150px;
+    top:-90px;
+    left:-30px;
+    border-radius:50%;
+    background-color: var(--main-circle-color);
+}
+.right-hair{
+    width:150px;
+    position:relative;
+    height:150px;
+    top:-240px;
+    right:-115px;
+    border-radius:50%;
+    background-color: var(--main-circle-color);
+}
+.left-eye{
+    width:60px;
+    height:60px; 
+    position:absolute;
+    top:100px;
+    left:30px;
+    border-radius:50%;
+    background-color: var(--main-circle-color);
+}
+.right-eye{
+    width:60px;
+    height:60px; 
+    position:absolute;
+    top:100px;
+    right:30px;
+    border-radius:50%;
+    background-color: var(--main-circle-color);
+}
+.boca{
+    width:60px;
+    height:15px; 
+    bottom:40px;
+    right:100px;
+    position:absolute;
+    border-radius:24px;
+    background-color: var(--main-circle-color);
+}

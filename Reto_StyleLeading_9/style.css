@@ -1,0 +1,75 @@
+:root {
+    --main-bg-color: #191919;
+    --secondary-color: #5DBCF9;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.container-sound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.left-square {
+    width: 125px;
+    height: 125px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.trap {
+    position: absolute;
+    top: 0px;
+    left: -115px;
+    border: 150px solid transparent;
+    border-right: 190px solid var(--secondary-color);
+    box-shadow: 20px 0px var(--main-bg-color);
+}
+
+.mask {
+    background-color: var(--main-bg-color);
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    z-index: -2;
+    right: 0px;
+    width: 260px;
+    height: 260px;
+    border: solid var(--secondary-color) 20px;
+    border-radius: 40% 70% 70% 40%;
+}
+
+.circle-2 {
+    position: absolute;
+    z-index: -2;
+    right: 40px;
+    width: 180px;
+    height: 180px;
+    border: solid var(--secondary-color) 20px;
+    border-radius: 50%;
+}
+
+.circle-3 {
+    position: absolute;
+    z-index: -2;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+    border: solid var(--secondary-color) 20px;
+    border-radius: 50%;
+}

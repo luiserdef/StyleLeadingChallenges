@@ -1,0 +1,65 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-links-color: #676666;
+    --main-text-color: #676666;
+    --main-bgcolor: #fbfbfb;
+    --primary-font-family: 'Poppins', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-300: 200;
+    --font-weight-500: 300;
+}
+body, h2, ul,figure,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #676666;
+}
+li{
+    list-style: none;
+}
+/*Start code*/
+.header-section{
+    display:grid;
+    grid-template-columns:1fr;
+}
+.header-section-logo{
+    display:grid;
+    grid-column:1/4;
+}
+.header-section-logo img{
+width: 150px;
+height:auto;
+}
+.header-section-social{
+    font-family:var(--primary-font-family);
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color:var(--main-text-color);
+}
+
+.header-section-social p{
+    transform:rotate(90deg);
+}
+.header-section-slide img{
+    width:100%;
+    object-fit: cover;
+    height: 560px;
+}
+
+.header-section-slide{
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+}
+
+.header-section-bottom{
+    display:grid;
+    grid-column:1/4;
+    font-family:var(--primary-font-family);
+}

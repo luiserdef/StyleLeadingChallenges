@@ -1,0 +1,81 @@
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-background-color: #1A4341;
+    --main-circle-color: #F3AC3C;
+    --main-line-color: #F3AC3C;
+    --secondary-circle-color: #998235;
+}
+
+body{
+    background-color:var(--main-background-color);
+}
+
+main{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.covid{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    background-color:var(--main-circle-color);
+}
+.circle1{
+    position:absolute;
+    top:9px;
+    left:9px;
+    width:15px;
+    height:15px;
+    border-radius: 50px;
+    background-color:var(--secondary-circle-color);
+}
+.circle2{
+    position:absolute;
+    top:8px;
+    right:11px;
+    width:4px;
+    height:4px;
+    border-radius: 50px;
+    background-color:var(--secondary-circle-color);
+}
+.circle3{
+    position:absolute;
+    bottom:10px;
+    left:19px;
+    width:10px;
+    height:10px;
+    border-radius: 50px;
+    background-color:var(--secondary-circle-color);
+}
+.line1{
+    position:absolute;
+    top:20px;
+    left:-18px;
+    width:85px;
+    height:4px;
+    transform:rotateZ(90deg);
+    border-radius: 50px;
+    background-color:var(--main-line-color);
+}
+.line2{
+    position:absolute;
+    top:22px;
+    left:-15px;
+    width:85px;
+    height:4px;
+    transform:rotateZ(35deg);
+    border-radius: 50px;
+    background-color:var(--main-line-color);
+}
+.line3{
+    position:absolute;
+    top:22px;
+    left:-15px;
+    width:85px;
+    height:4px;
+    transform:rotateZ(-35deg);
+    border-radius: 50px;
+    background-color:var(--main-line-color);
+}

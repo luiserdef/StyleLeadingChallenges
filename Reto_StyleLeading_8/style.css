@@ -1,0 +1,68 @@
+:root {
+    --masin-color: #4F77FF;
+    --line-color: #191919;
+}
+
+body {
+    background-color: var(--line-color);
+}
+
+.container-world {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.world {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: var(--masin-color);
+}
+
+.curve {
+    position: absolute;
+    width: 250px;
+    left: 22%;
+    top: -10px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid var(--line-color) 14px;
+}
+
+.central-line {
+    position: absolute;
+    left: 48%;
+    width: 15px;
+    height: 500px;
+    background-color: var(--line-color);
+}
+
+.horizontal-line {
+    position: absolute;
+    bottom: 48%;
+    left: 0%;
+    width: 600px;
+    height: 15px;
+    background-color: var(--line-color);
+}
+
+.horizontal-top {
+    position: absolute;
+    bottom: 25%;
+    left: 0%;
+    width: 600px;
+    height: 15px;
+    background-color: var(--line-color);
+}
+
+.horizontal-bottom {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 600px;
+    height: 15px;
+    background-color: var(--line-color);
+}
