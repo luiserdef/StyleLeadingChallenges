@@ -40,3 +40,7 @@
 ### [Reto 10: Copa](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_10)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_10/resultado_final.png" width="300px" height="100%">
+
+### [Reto 11: Copa](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_11)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_11/resultado_final.png" width="300px" height="100%">
