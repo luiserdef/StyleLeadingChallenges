@@ -1,0 +1,79 @@
+:root {
+    --main-bg-color: #293462;
+    --main-taza-color: #FFF1C1;
+    --main-detalle-color: #FE5F55;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.container-cup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 580px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cup {
+    position: relative;
+    width: 500px;
+    height: 310px;
+    border-radius: 0 0 40% 40%;
+    background-color: var(--main-taza-color);
+}
+
+.cup:before {
+    content: "";
+    position: absolute;
+    left: -150px;
+    width: 500px;
+    height: 120px;
+    border-radius: 100px;
+    border: solid var(--main-taza-color) 25px;
+}
+
+.cup:after {
+    content: "";
+    position: absolute;
+    right: -150px;
+    width: 500px;
+    height: 120px;
+    border-radius: 100px;
+    border: solid var(--main-taza-color) 25px;
+}
+
+.lines {
+    z-index: 2;
+    position: absolute;
+    width: 135px;
+    top: 2.8em;
+    left: 3em;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 25px;
+    background-color: var( --main-detalle-color);
+    border-radius: 100px;
+}
+
+.circle {
+    position: absolute;
+    z-index: 4;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: var( --main-detalle-color);
+    bottom: 55px;
+    right: 55px;
+}

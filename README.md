@@ -44,3 +44,7 @@
 ### [Reto 11: Sol Atardecer](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_11)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_11/resultado_final.png" width="300px" height="100%">
+
+### [Reto 12: Taza](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_12)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_12/resultado_final.png" width="300px" height="100%">
