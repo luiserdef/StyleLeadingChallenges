@@ -48,3 +48,7 @@
 ### [Reto 12: Taza](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_12)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_12/resultado_final.png" width="300px" height="100%">
+
+### [Reto 13: Perilla puerta](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_13)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_13/resultado_final.png" width="300px" height="100%">
