@@ -52,3 +52,11 @@
 ### [Reto 13: Perilla puerta](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_13)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_13/resultado_final.png" width="300px" height="100%">
+
+### [Reto 14: Lupa](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_14)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_13/resultado_final.png" width="300px" height="100%">
+
+### [Reto 15: Lupa - Segunda Parte](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_15)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_13/resultado_final.png" width="300px" height="100%">
