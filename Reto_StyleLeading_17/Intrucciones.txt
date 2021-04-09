@@ -1,0 +1,23 @@
+Guía de Estilos
+
+Detalles de los colores están creados en las variables CSS, mira el archivo "style.css".
+
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-bg-color: #6592CF;
+    --main-element-color: #243D83;
+    --btn-color: #EEB850;
+}
+La imagen "resultado_final.png" es la referencia visual de cómo debe quedar al final el proyecto.
+La caja principal tiene un tamaño de 300px de ancho por 150px de alto.
+La primer círculo tiene un tamaño de 250px de ancho por 250px de alto.
+El segundo círculo tiene un tamaño de 150px de ancho por 150px de alto.
+El tercer círculo tiene un tamaño de 50px de ancho por 50px de alto.
+
+Evitar la creación de colores en los bordes.
+
+Si tienes dudas adiconales me puedes contactar a: jair@cooltimedia.com
+
+Gracias por participar.
+Te deseamos los mejor.
