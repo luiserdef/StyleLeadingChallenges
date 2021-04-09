@@ -57,6 +57,14 @@
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_14/resultado_final.jpeg" width="300px" height="100%">
 
-### [Reto 15: Lupa - Segunda Parte](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_15)
+### [Reto 14.1: Lupa - Segunda Parte](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_14-1)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_14-1/resultado_final.jpeg" width="300px" height="100%">
+
+### [Reto 15: Degradado](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_15)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_15/resultado_final.jpeg" width="300px" height="100%">
+
+### [Reto 16: Push Button](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_16)
+
+<img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_16/resultado_final.jpeg" width="300px" height="100%">

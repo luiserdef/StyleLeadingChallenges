@@ -1,73 +1,20 @@
 :root{
-    --main-bg-color: #191919;
-    --line-color: #E08027;
+  --color-line-1: #F7EC7D;
+  --color-line-2: #E38F66;
+  --color-line-3: #AA445F;
+  --color-line-4: #62306D;
 }
+
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0
+}
+
 body{
-    background: var(--main-bg-color);
-    margin:0;
-    padding:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height: 100vh;
-    width: 100vw;
-}
-/*Primer Circulo*/
-.main-content-first{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main-content-first .first-circle,.main-content-second .first-circle {
-    width: 100px;
-    height: 100px;
-    background: var(--line-color);
-    border: 10px solid var(--line-color);
-    border-radius:0px 100px 100px 100px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.main-content-first .second-circle,.main-content-second .second-circle{
-    width: 90px;
-    height: 90px;
-    background: #191919;
-    border-radius: 100px;
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;    
-}
-.main-content-first .second-circle .content,.main-content-second .second-circle .content{
-    position: absolute;
-    width: 10px;
-    height: 5px;
-    border: 10px solid var(--line-color);
-    border-radius: 100px 100px 0px 0px;
-    border-bottom:none;    
-}
-.main-content-first .rectangle,.main-content-second .rectangle{
-    background: var(--line-color);
-    width: 50px;
-    height: 40px;
-    position:relative;
-    left: -40px;
-    bottom: -55px;
-    transform: rotate(47deg);
-}
-
-.main-content-second{
-    position: absolute;
-    left: 320px;
-    transform: scaleX(-1);
-}
-
-.main-content-second .first-circle:before{
-    content: "";
-    z-index: -1;
-    position: absolute;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    border: solid var(--main-bg-color) 10px;
+  height:100vh;
+  width:100%;
+  height:100vh;
+  width:100%;
+  background:linear-gradient(to bottom, var(--color-line-1),var(--color-line-1) 16%,var(--color-line-2) 16%, var(--color-line-2) 32%,var(--color-line-3) 32%, var(--color-line-3) 66%,var(--color-line-4) 66%, var(--color-line-4) 66%);
 }
