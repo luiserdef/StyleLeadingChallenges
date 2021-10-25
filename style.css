@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;   
+    /* border: red solid 1px; */
+    box-sizing: border-box;
+}
+body{
+    font-family:'Signika Negative', sans-serif;
+ }
+h1,h2,p{
+    color: #ffffff;
+}
+
+header{
+    background: url('http://dslv9ilpbe7p1.cloudfront.net/KeMTgcQ05UZSq45TRvOB1Q_store_banner_image.jpeg') no-repeat fixed;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+header img{
+    width: 300px;
+}
+header p{
+    padding: 20px;
+}
+main{
+    max-width: 1024px;
+    margin-right:auto ;
+    margin-left: auto;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+.card{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #500a30 ;
+}
+.card img{
+    height: auto;
+    width: 300px;
+}
+.card .card-text{
+    text-align: center;
+}
+
+#enlace-codigo{
+    margin-top: 20px;
+    background-color:rgb(35, 45, 102);
+    padding: .5em 2em;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
