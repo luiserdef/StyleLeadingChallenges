@@ -29,11 +29,11 @@
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_7/resultado_final.png" width="300px" height="100%">
 
-### [Reto 8: Sonido](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_8)
+### [Reto 8: Mundo](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_8)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_8/resultado_final.png" width="300px" height="100%">
 
-### [Reto 9: Mundo](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_9)
+### [Reto 9: Sonido](https://github.com/gareffmz/StyleLeadingChallenges/tree/main/Reto_StyleLeading_9)
 
 <img src="https://github.com/gareffmz/StyleLeadingChallenges/blob/main/Reto_StyleLeading_9/resultado_final.png" width="300px" height="100%">
 
