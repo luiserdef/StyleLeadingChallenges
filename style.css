@@ -36,7 +36,13 @@ main{
     row-gap: 1em;
     gap: 1em;
 }
-
+/*Mobile versión*/
+@media screen and (max-width:425px){
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+/*End Mobile versión*/
 .card{
     display: flex;
     border-radius: 10px;
@@ -51,7 +57,9 @@ main{
     width: 100%;
 }
 .card .card-text{
+    position: relative;
     padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
 }
 
@@ -72,3 +80,4 @@ main{
     background-position: right bottom;
     transition: all .2s ease-out;
 }
+
